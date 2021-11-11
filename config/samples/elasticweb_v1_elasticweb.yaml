@@ -1,0 +1,7 @@
+apiVersion: elasticweb.com.alibaba-inc.chenyi/v1
+kind: ElasticWeb
+metadata:
+  name: elasticweb-sample
+spec:
+  # Add fields here
+  foo: bar

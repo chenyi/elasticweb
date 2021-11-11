@@ -1,0 +1,34 @@
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - elasticweb.com.alibaba-inc.chenyi
+  resources:
+  - elasticwebs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - elasticweb.com.alibaba-inc.chenyi
+  resources:
+  - elasticwebs/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - elasticweb.com.alibaba-inc.chenyi
+  resources:
+  - elasticwebs/status
+  verbs:
+  - get
+  - patch
+  - update
