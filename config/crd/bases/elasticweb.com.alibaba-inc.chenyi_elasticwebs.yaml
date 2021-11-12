@@ -45,7 +45,7 @@ spec:
               port:
                 format: int32
                 type: integer
-              singleQPS:
+              singlePodQPS:
                 format: int32
                 type: integer
               totalQPS:
@@ -54,7 +54,7 @@ spec:
             required:
             - image
             - port
-            - singleQPS
+            - singlePodQPS
             - totalQPS
             type: object
           status:

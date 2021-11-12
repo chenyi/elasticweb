@@ -31,13 +31,12 @@ type ElasticWebSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of ElasticWeb. Edit elasticweb_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Foo   string `json:"foo,omitempty"`
 	Image string `json:"image"`
-	Port *int32 `json:"port"`
+	Port  *int32 `json:"port"`
 
-	SinglePodQPS *int32 `json:"singleQPS"`
+	SinglePodQPS *int32 `json:"singlePodQPS"`
 	TotalQPS     *int32 `json:"totalQPS"`
-
 }
 
 // ElasticWebStatus defines the observed state of ElasticWeb
