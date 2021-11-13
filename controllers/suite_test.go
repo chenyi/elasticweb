@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	elasticwebv1 "elasticweb/api/v1"
+	elasticwebv1 "github.com/chenyi/elasticweb/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 

@@ -32,7 +32,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	elasticwebv1 "elasticweb/api/v1"
+	elasticwebv1 "github.com/chenyi/elasticweb/api/v1"
 )
 
 // ElasticWebReconciler reconciles a ElasticWeb object
